@@ -1,0 +1,44 @@
+.container {
+  border: 2px solid #000;
+  margin: 0 auto;
+  height: 800px;
+  position: relative;
+  width: 960px;
+}
+
+.bar {
+  background-color: blanchedalmond;
+  height: 50px;
+  position: absolute;
+  top: 600px;
+  width: 100%;
+}
+
+.circle {
+  background-color: darkgreen;
+  border-radius: 50%;
+  height: 100px;
+  position: absolute;
+  width: 100px;
+}
+
+.action {
+  align-items: center;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  position: absolute;
+  right: 50px;
+  top: 520px;
+  width: 80px;
+  z-index: 10;
+}
+
+.action button {
+  background-color: cyan;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
